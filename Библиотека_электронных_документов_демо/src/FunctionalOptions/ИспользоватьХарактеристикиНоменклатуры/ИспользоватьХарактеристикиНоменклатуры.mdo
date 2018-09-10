@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c8d8e63-94ef-4031-bc42-bb6fcdec7de0">
+  <name>ИспользоватьХарактеристикиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать характеристики номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьХарактеристикиНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.НоменклатураПоставщиков.Attribute.Характеристика</content>
+  <content>Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Характеристика</content>
+  <content>Catalog.ВидыНоменклатуры.Attribute.НаборСвойствХарактеристик</content>
+  <content>Document._ДемоЗаказПокупателя.TabularSection.Товары.Attribute.Характеристика</content>
+  <content>Document._ДемоУдалитьВозвратТоваровОтПокупателя.TabularSection.Товары.Attribute.Характеристика</content>
+  <content>Document._ДемоЗаказПоставщику.TabularSection.Товары.Attribute.Характеристика</content>
+  <content>Document.ПоступлениеТоваровУслуг.TabularSection.Товары.Attribute.Характеристика</content>
+  <content>Document.СчетФактураВыданный.TabularSection.Товары.Attribute.Характеристика</content>
+  <content>Document.СчетФактураПолученный.TabularSection.Товары.Attribute.Характеристика</content>
+  <content>Document._ДемоУстановкаЦенНоменклатуры.TabularSection.Товары.Attribute.Характеристика</content>
+  <content>Catalog.ВидыНоменклатуры.Attribute.ИндивидуальныеХарактеристикиНоменклатуры</content>
+  <content>Catalog.ХарактеристикиНоменклатуры</content>
+</mdclass:FunctionalOption>

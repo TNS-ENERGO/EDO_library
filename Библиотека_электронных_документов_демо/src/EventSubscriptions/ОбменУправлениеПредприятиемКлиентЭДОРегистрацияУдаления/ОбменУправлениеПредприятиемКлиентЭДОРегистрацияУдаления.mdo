@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="932b84ba-310d-4cc6-adf3-235c5c73e4bd">
+  <name>ОбменУправлениеПредприятиемКлиентЭДОРегистрацияУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с 1С:Управление производственным предприятием зарегистрировать удаление</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>CatalogObject.КлассификаторБанков</types>
+    <types>DocumentObject.СчетФактураПолученный</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.ЕдиницыИзмерения</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.Валюты</types>
+    <types>CatalogObject.ДоговорыКонтрагентов</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиКЭДО.ОбменУправлениеПредприятиемКлиентЭДОЗарегистрироватьУдаление</handler>
+</mdclass:EventSubscription>

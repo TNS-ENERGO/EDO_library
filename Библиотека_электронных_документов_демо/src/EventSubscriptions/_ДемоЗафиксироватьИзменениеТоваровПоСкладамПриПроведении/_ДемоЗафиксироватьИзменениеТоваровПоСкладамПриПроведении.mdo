@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="098a5e2d-8110-486b-be7c-d4b226774fcf">
+  <name>_ДемоЗафиксироватьИзменениеТоваровПоСкладамПриПроведении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Зафиксировать изменение товаров по складам при проведении</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule._ДемоОбменССайтом.ЗафиксироватьИзменениеТоваровПоСкладамПриПроведении</handler>
+</mdclass:EventSubscription>

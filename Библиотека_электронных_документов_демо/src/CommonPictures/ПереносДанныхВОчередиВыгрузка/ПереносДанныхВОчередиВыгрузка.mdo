@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3698079c-513d-47ff-bfbd-64eca96220ad">
+  <name>ПереносДанныхВОчередиВыгрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос данных в очереди выгрузка</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>27</x>
+    <y>4</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

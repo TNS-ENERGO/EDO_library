@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dd70463-56b2-4647-a1cb-a88b7995d888">
+  <name>_ДемоПоискТоваровТорговыеПредложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы поставщикам в 1С:Бизнес-сеть</value>
+  </synonym>
+  <comment></comment>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType>
+    <types>DocumentRef._ДемоЗаказПокупателя</types>
+    <types>DocumentRef._ДемоЗаказПоставщику</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="020e282d-c658-4ca1-aa2e-dad41d1795d1">
+  <name>_ДемоСайтКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сайт компании</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ОбменССайтами</content>
+  <content>FunctionalOption.СайтСоздан</content>
+  <content>Constant.СайтСоздан</content>
+  <parentSubsystem>Subsystem._ДемоОбменССайтами</parentSubsystem>
+</mdclass:Subsystem>

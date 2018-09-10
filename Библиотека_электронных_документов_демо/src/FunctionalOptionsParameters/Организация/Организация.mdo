@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="831d6bd5-84d2-4a3e-a1df-cf3ae2a6bc06">
+  <name>Организация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация</value>
+  </synonym>
+  <comment></comment>
+  <use>Catalog.Организации</use>
+</mdclass:FunctionalOptionsParameter>

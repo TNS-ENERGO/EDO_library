@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75fdd45e-ab32-48cf-a137-b18abc0f0c35">
+  <name>_ДемоЭлектронноеВзаимодействие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронное взаимодействие</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonForm._ДемоНастройкаСистемы</content>
+  <content>CommonCommand._ДемоОбщаяНастройкаСистемы</content>
+  <content>CommonModule._ДемоФормированиеПечатныхФорм</content>
+  <content>Role._ДемоБазовыеПраваБЭД</content>
+  <content>CommonCommand._ДемоСтраницаПродуктаНаСайте1С</content>
+  <content>CommonCommand._ДемоДокументацияПоВнедрениюИИспользованию</content>
+  <content>FunctionalOption._ДемоПоказыватьПодсистему1CБизнесСеть</content>
+  <content>FunctionalOption._ДемоПоказыватьПодсистемуОбменССайтами</content>
+  <content>Constant._ДемоПоказыватьПодсистемуОбменСКонтрагентами</content>
+  <content>Constant._ДемоПоказыватьПодсистемуОбменСБанками</content>
+  <content>Constant._ДемоПоказыватьПодсистемуОбменССайтами</content>
+  <content>Constant._ДемоПоказыватьПодсистему1CБизнесСеть</content>
+  <content>FunctionalOption._ДемоПоказыватьПодсистемуОбменСБанками</content>
+  <content>FunctionalOption._ДемоПоказыватьПодсистемуОбменСКонтрагентами</content>
+  <content>FunctionalOption._ДемоПоказыватьПодсистемуИнтеграцияСЯндексКассой</content>
+  <content>CommonCommand._ДемоВыгрузитьДанныеДляПереходаВСервис</content>
+  <content>Constant._ДемоДатаПервогоВходаВСистему</content>
+  <content>CommonForm._ДемоПервыйЗапуск</content>
+  <content>CommonModule._ДемоЭлектронноеВзаимодействие</content>
+  <content>Constant._ДемоПоказыватьПодсистемуРаботаСНоменклатурой</content>
+  <content>FunctionalOption._ДемоПоказыватьПодсистемуРаботаСНоменклатурой</content>
+  <content>CommonTemplate.ОписаниеИзмененийСистемы</content>
+</mdclass:Subsystem>

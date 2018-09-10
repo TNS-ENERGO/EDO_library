@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb85ff95-e8d7-4bcb-b78f-c89fcb0dec59">
+  <producedTypes>
+    <objectType typeId="37f9793e-81ad-41c0-89fe-662462c418f8" valueTypeId="15f5145a-d1b6-4988-9926-3b67e6accf3e"/>
+    <managerType typeId="eb8b6cce-eb85-44c7-96a3-a72c4c13b90f" valueTypeId="7c2e91a0-05ab-4b04-804c-4ea17396c179"/>
+  </producedTypes>
+  <name>ПомощникПереходаСДругихКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник перехода с других конфигураций 1С:Предприятие 8</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникПереходаСДругихКонфигураций.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="7f43be70-6ec1-4374-9c7b-ae6372a7a4fb">
+    <name>ИмяФайлаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="433c985f-c8a7-48c4-b3a7-57b9c7f5f8bd">
+    <name>КонфигурацияИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="17a26786-91ff-4d23-ab20-38c80aed5d4d">
+    <name>КонфигурацияПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация приемник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f090e287-14ab-4016-8981-4c32bff1aae6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cc099966-cc19-4c37-803f-a1580c831b65">
+    <name>СписокОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список ошибок</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="6028024c-c141-45ce-a75f-a2e6afade759">
+    <name>ПравилаОбменаКлиентЭДОРедакции20</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена Клиент ЭДО редакции 2.0</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="6ffd9ed3-ee79-4e17-9aca-7535a6f05309">
+    <name>ПереносДанныхИзКлиентЭДОРедакции20</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос данных из Клиент ЭДО редакции 2.0</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41f87891-ddd5-4e0f-a4f2-8039fb71981b">
+  <name>СтруктураПодчиненности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <comment></comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef._ДемоЗаказПокупателя</types>
+    <types>DocumentRef._ДемоУстановкаЦенНоменклатуры</types>
+    <types>DocumentRef.СчетФактураПолученный</types>
+    <types>DocumentRef._ДемоОперация</types>
+    <types>DocumentRef._ДемоПлатежныйДокумент</types>
+    <types>DocumentRef._ДемоОперацияПоЯндексКассе</types>
+    <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+    <types>DocumentRef._ДемоЗаказПоставщику</types>
+    <types>DocumentRef.РеализацияТоваровУслуг</types>
+    <types>DocumentRef.СчетФактураВыданный</types>
+    <types>DocumentRef._ДемоУдалитьВозвратТоваровОтПокупателя</types>
+    <types>DocumentRef._ДемоПередачаТоваровМеждуОрганизациями</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Перейти к иерархическому списку связанных документов</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СтруктураПодчиненности</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

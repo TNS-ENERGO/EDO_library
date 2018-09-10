@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44b4228f-7afd-47c2-86af-4af87d6c53dc">
+  <name>_ДемоОбменСБанками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с банками</value>
+  </synonym>
+  <comment></comment>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделОбменСБанками16</picture>
+  </picture>
+  <content>Catalog.НастройкиОбменСБанками</content>
+  <content>Document._ДемоОперацииПоБанковскомуСчету</content>
+  <content>Document._ДемоПлатежныйДокумент</content>
+  <content>DataProcessor.ОбменСБанками</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>Catalog._ДемоУдалитьБанковскиеСчета</content>
+  <content>CommonPicture._ДемоРазделОбменСБанками16</content>
+  <content>Enum._ДемоТипыПлатежныхДокументов</content>
+  <content>Role._ДемоБазовыеПраваБЭД</content>
+  <content>DataProcessor._ДемоРазборБанковскойВыписки</content>
+  <content>CommonPicture._ДемоРазвернутьОтборы</content>
+  <content>DataProcessor._ДемоТестированиеБЭД</content>
+  <content>CommonModule._ДемоОбменСБанкамиВызовСервера</content>
+</mdclass:Subsystem>

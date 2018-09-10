@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="178708aa-39c9-4095-b39a-f5f3d4846ad4">
+  <producedTypes>
+    <managerType typeId="df6d97cb-a129-4938-bb8d-6e62b4108e2f" valueTypeId="cfbba25b-b220-4844-95da-1ef06dbc4f02"/>
+    <valueManagerType typeId="693d3e1c-b06e-4c15-be3e-c26f28894078" valueTypeId="deab781f-b438-41a9-ba08-2e6f6e623a04"/>
+  </producedTypes>
+  <name>_ДемоПродажаПрограммногоОбеспечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Передача прав на ПО</value>
+  </synonym>
+  <comment>Включает возможность формирования ЭД вида &quot;Акт на передачу прав&quot;. ЭД формируется на основании реализации товаров и услуг с заполненной таблицей &quot;Программное обеспечение&quot;.</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <defaultForm>CommonForm._ДемоНастройкаСистемы</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>При включении данной константы, в документе &quot;Реализация товаров и услуг&quot; становится доступной вкладка &quot;Программное обеспечение&quot;. На основании документа с ПО формируется ЭД &quot;Акт на передачу прав&quot;.</value>
+  </explanation>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <quickChoice>DontUse</quickChoice>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

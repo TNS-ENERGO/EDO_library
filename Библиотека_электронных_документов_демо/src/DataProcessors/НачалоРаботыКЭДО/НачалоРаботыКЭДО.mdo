@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3684751f-3a73-419a-aea6-1b7bb6a354b0">
+  <producedTypes>
+    <objectType typeId="be0bc8c1-eaf6-4b70-bfb2-075ac3b40bf9" valueTypeId="b58a4fb4-1b1e-42ca-8975-5429907428b1"/>
+    <managerType typeId="e1083550-d646-4b6c-adb7-f14719e7b7de" valueTypeId="ab605d84-31d6-46fb-b4d7-7970529c634a"/>
+  </producedTypes>
+  <name>НачалоРаботыКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начало работы Клиент ЭДО</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НачалоРаботыКЭДО.Form.Форма</defaultForm>
+  <forms uuid="a82aa5cd-74e7-454f-9ca3-93fbc5234f72">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de65936c-842a-48e1-a56c-fff8b789848b">
+    <name>БыстрыйСтарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрый старт</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d836118-0106-404c-a4e8-1d4d36021efd">
+    <name>ЛицензионноеСоглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензионное соглашение</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8c531e08-9f13-4ad6-96df-7a614deeb880">
+    <name>УсловияЛицензионногоСоглашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия лицензионного соглашения</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

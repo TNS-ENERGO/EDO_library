@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b305c4fa-aa0f-424e-8d86-412e4ae50309">
+  <name>_ДемоИспользоватьПартнеровИКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать партнеров и контрагентов</value>
+  </synonym>
+  <comment>Позволяет регулировать отображение партнеров на формах</comment>
+  <location>Constant._ДемоИспользоватьПартнеровИКонтрагентов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog._ДемоПартнеры</content>
+  <content>Catalog.Контрагенты.Attribute.Партнер</content>
+</mdclass:FunctionalOption>

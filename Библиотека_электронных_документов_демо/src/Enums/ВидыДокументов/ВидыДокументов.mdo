@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2214bab-1b31-4db2-9676-8861f786cd17">
+  <producedTypes>
+    <refType typeId="69172042-13cb-439d-ae78-8190993d0e87" valueTypeId="622d479a-98f8-458d-9db2-36d48c4ba5d0"/>
+    <listType typeId="062d1416-4b64-4239-8d19-eebbed077a2a" valueTypeId="08c9121a-bebe-446e-84bf-691a12455f4d"/>
+    <managerType typeId="649ac270-1f57-4322-9544-4a1b9edc44b1" valueTypeId="0f7b7bbe-d66f-4070-b620-2cab46c3aa1b"/>
+  </producedTypes>
+  <name>ВидыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8d6e6e72-b140-47e5-ba0f-a1705e3de530">
+    <name>АктВыполненныхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт выполненных работ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1dcb9120-5ec8-4f0b-bbfd-e768ce238240">
+    <name>АктНаПередачуПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт на передачу прав</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="33ca8450-7300-4739-b94b-98727a4e875d">
+    <name>ЗаказТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ товара</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7113dcdf-993b-439f-8e5e-57d2aad3cc03">
+    <name>КаталогТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог товаров</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="910cf897-b050-4239-962a-6afc4c0ce8cd">
+    <name>ОтветНаЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ на заказ товара</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="72751f32-1343-4952-9381-162abca568ea">
+    <name>ОтчетОПродажахКомиссионногоТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о продажах комиссионного товара</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bb1fc29f-1380-4adc-bd46-aafc11d97d51">
+    <name>ОтчетОСписанииКомиссионногоТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о списании комиссионного товара</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="47e63ddb-d20a-42bf-a50e-77f82c8d553c">
+    <name>ПрайсЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-лист</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="719e2515-d14e-4a3d-a880-01e0d3067cca">
+    <name>СчетНаОплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0993db09-ecde-4fc1-884d-bd7947c922f2">
+    <name>СчетФактура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="fa221d0d-9842-4512-8f94-7a0d9bc4feee">
+    <name>СчетФактураНаАванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура на аванс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="125fa6e3-2341-4340-888a-fd9eaa07e7a0">
+    <name>ТоварнаяНакладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарная накладная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cfa6589f-764a-4286-a56f-92d1eda6386c">
+    <name>ПередачаНаКомиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача на комиссию</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1baccfc5-dc85-4dfe-8e3f-fc1e9dec6fbe">
+    <name>НакладнаяНаВозврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная на возврат</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

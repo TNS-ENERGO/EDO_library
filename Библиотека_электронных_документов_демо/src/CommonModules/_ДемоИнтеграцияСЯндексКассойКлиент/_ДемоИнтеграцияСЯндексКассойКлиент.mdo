@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24cb5081-c8d8-45e9-b3ef-42dd760aa1d6">
+  <name>_ДемоИнтеграцияСЯндексКассойКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо интеграция с яндекс кассой клиент</value>
+  </synonym>
+  <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

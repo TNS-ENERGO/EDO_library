@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97e88e30-284a-45c0-8f14-7102a51d4d43">
+  <producedTypes>
+    <managerType typeId="32c0c29f-b46e-4fcb-836d-f59a6398564c" valueTypeId="c6ccd409-4f7d-4a08-b901-4225acda99b4"/>
+    <valueManagerType typeId="b85aa72e-ca9f-4726-94c0-c3d53325ac75" valueTypeId="074164e1-9c20-4c33-a2ee-b6e2e5262878"/>
+  </producedTypes>
+  <name>ВалютаРегламентированногоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта регламентированного учета</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>В этой валюте ведется бухгалтерский учет.
+По отношению к этой валюте указываются курсы других валют.
+Для Российской Федерации валюта регламентированного учета - рубли.</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>
