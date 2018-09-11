@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de439d3b-5d87-4331-b7c1-4432423f2933">
+  <name>_ДемоПоказыватьПодсистемуРаботаСНоменклатурой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать команды подсистемы 1С:Номенклатура</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant._ДемоПоказыватьПодсистемуРаботаСНоменклатурой</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоРаботаСНоменклатурой</content>
+</mdclass:FunctionalOption>

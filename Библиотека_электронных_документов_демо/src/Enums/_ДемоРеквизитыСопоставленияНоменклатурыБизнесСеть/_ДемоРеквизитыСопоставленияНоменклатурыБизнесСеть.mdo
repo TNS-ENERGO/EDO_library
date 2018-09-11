@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="212474af-b2b2-43f5-bde8-ba6a764d9d91">
+  <producedTypes>
+    <refType typeId="05b05393-18e1-413b-af97-e5278d2859c3" valueTypeId="a261021e-6043-4e57-bab7-f7fff6be5c30"/>
+    <listType typeId="5d2cf0a6-0a28-4bee-ad63-23ecc7fbce5f" valueTypeId="92286375-f50b-423d-a5d8-8145d28c4479"/>
+    <managerType typeId="d3785a66-6699-4a87-850f-c7e5832091d3" valueTypeId="62a23f93-009a-4d64-86ef-12fcfca525ba"/>
+  </producedTypes>
+  <name>_ДемоРеквизитыСопоставленияНоменклатурыБизнесСеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Реквизиты сопоставления номенклатуры 1С:Бизнес-сеть</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="21dff711-e627-47ff-9116-ac4665fe7f92">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

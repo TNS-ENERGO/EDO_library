@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25a2b061-0e8e-4a2a-a9b6-019f1995c5a8">
+  <producedTypes>
+    <refType typeId="c1466a7f-fcd8-46d4-95cf-55a66928afd7" valueTypeId="7c4842f9-b006-44ca-bc15-4df7d8d71e1b"/>
+    <listType typeId="723db005-d9b3-404e-bb63-966df780acd1" valueTypeId="81bf11c4-5d3e-411e-8a36-5cb2d6bf6797"/>
+    <managerType typeId="d7493aad-ccb7-439a-98f2-d2c4e04717d9" valueTypeId="1dac2d33-c2de-4b16-9ff1-cbceef974500"/>
+  </producedTypes>
+  <name>_ДемоТипыПлатежныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Типы платежных документов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="16ec135c-e627-4622-aaa6-f4c8c947621d">
+    <name>ПлатежноеПоручение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежное поручение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2f7edf87-96d2-4fb7-9345-56cd3207845f">
+    <name>ПлатежноеТребование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежное требование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

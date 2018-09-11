@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d106d6eb-2462-4436-b879-002f0b3e904d">
+  <name>_ДемоПроверкаИнтеграцииССервисом1СОтчетность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Проверка интеграции с сервисом 1С-Отчетность</value>
+  </synonym>
+  <comment></comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

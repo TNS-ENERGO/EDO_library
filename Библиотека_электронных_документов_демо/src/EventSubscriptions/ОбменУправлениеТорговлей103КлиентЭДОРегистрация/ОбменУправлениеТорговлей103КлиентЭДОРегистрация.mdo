@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96417372-5637-4535-9389-bc4036c2160c">
+  <name>ОбменУправлениеТорговлей103КлиентЭДОРегистрация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с 1С:Управление торговлей зарегистрировать изменение</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>CatalogObject.КлассификаторБанков</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.ЕдиницыИзмерения</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.Валюты</types>
+    <types>CatalogObject.ДоговорыКонтрагентов</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиКЭДО.ОбменУправлениеТорговлей103КлиентЭДОЗарегистрироватьИзменение</handler>
+</mdclass:EventSubscription>

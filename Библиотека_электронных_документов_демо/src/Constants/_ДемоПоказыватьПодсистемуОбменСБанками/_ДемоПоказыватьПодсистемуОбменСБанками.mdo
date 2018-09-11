@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbbd1b53-6048-44af-baf1-607de50877b4">
+  <producedTypes>
+    <managerType typeId="e5c50055-ea45-4431-9643-69f603a1020c" valueTypeId="5b49fdcc-d38d-42d1-82bc-a7c09ad643dc"/>
+    <valueManagerType typeId="8a82dd51-9faf-49f9-8214-84321abc15c4" valueTypeId="4383bea1-b98a-44f4-8a01-97a9a87672a8"/>
+  </producedTypes>
+  <name>_ДемоПоказыватьПодсистемуОбменСБанками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Показывать подсистему обмен с банками</value>
+  </synonym>
+  <comment>Позволяет регулировать отображение объектов по обмену с банками</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <defaultForm>CommonForm._ДемоНастройкаСистемы</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>При включенной константе, в командном интерфейсе отображаются справочники, документы для работы обмена с банками</value>
+  </explanation>
+  <format>
+    <key>ru</key>
+    <value> </value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value> </value>
+  </editFormat>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <quickChoice>DontUse</quickChoice>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

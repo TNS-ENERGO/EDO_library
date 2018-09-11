@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a98a8631-796a-4266-afa2-964cc5841d29">
+  <producedTypes>
+    <objectType typeId="28f1de33-e82e-4b4d-86c5-33465646de0e" valueTypeId="c519951b-576a-42f2-8a1b-4796cbf77065"/>
+    <managerType typeId="a87457f3-3675-46f8-a833-b85c9f90d70b" valueTypeId="e4e33567-f69c-4b4e-ab9c-9659b6eb6824"/>
+  </producedTypes>
+  <name>_ДемоТестированиеБЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование БЭД</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ДемоТестированиеБЭД.Form.ПроверкаСсылокНаВнешниеРесурсы</defaultForm>
+  <forms uuid="d2e7948c-84a8-4bb5-8dbd-115ffe49cc02">
+    <name>ПроверкаСсылокНаВнешниеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка ссылок на внешние ресурсы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="13c2a4b8-146a-4219-b75f-9b30e2291a62">
+    <name>ТестированиеDirectBank</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование DirectBank</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="296e589c-33ca-4acb-8b76-c84502f95467">
+    <name>СсылкиНаВнешниеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылки на внешние ресурсы</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="996ab23a-6c6e-462f-be41-95f140fcb3a7">
+    <name>ТестовыеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовые данные</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="ca71d839-e476-4f55-b8f1-0b8a247c601c">
+    <name>ПроверкаСсылокНаВнешниеРесурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка ссылок на внешние ресурсы</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="38739da7-8514-4a79-a5bc-17def7a847fd">
+    <name>ТестированиеDirectBank</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование DirectBank</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

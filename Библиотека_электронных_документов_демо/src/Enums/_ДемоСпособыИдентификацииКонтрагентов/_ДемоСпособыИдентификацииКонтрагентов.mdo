@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b489ff4-3e0f-4cc1-a8e8-0a0337d873b9">
+  <producedTypes>
+    <refType typeId="b3c0ad2b-78de-469c-8a53-72f32f86b362" valueTypeId="73d87a71-db5d-427d-8748-2acac91af141"/>
+    <listType typeId="d263eab1-c565-4164-a8e0-487c861602f8" valueTypeId="20377de7-b3ec-4f95-b949-f770b00524ee"/>
+    <managerType typeId="a4e2f350-9a5b-4eb9-aa4b-30b0754ec5a6" valueTypeId="cf3786fc-13dd-4b2c-a0ec-dcb7700a7e4a"/>
+  </producedTypes>
+  <name>_ДемоСпособыИдентификацииКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Способы идентификации контрагентов</value>
+  </synonym>
+  <comment>Способы идентификации контрагентов для обмена заказами с сайтом</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Способы идентификации контрагентов для обмена заказами с сайтом</value>
+  </extendedListPresentation>
+  <enumValues uuid="9dff9b0f-4b71-4dbd-9379-dc2e7b1bf092">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по наименованию</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="330f1721-65b6-4abb-b4bb-a8f03e0acf46">
+    <name>ИННКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по ИНН + КПП</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

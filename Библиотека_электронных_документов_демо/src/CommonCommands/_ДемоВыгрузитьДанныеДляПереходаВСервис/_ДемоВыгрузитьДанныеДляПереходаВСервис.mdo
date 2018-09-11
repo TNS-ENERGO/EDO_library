@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f09e908-ebcd-4969-8409-207bf6b122cd">
+  <name>_ДемоВыгрузитьДанныеДляПереходаВСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузить данные для перехода в сервис</value>
+  </synonym>
+  <comment></comment>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

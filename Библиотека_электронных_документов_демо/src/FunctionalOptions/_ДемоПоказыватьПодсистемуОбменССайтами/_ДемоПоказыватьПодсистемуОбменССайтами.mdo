@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="223a3412-db82-41fd-9094-e9da8ab6eb36">
+  <name>_ДемоПоказыватьПодсистемуОбменССайтами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать команды подсистемы обмена с сайтам</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant._ДемоПоказыватьПодсистемуОбменССайтами</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоОбменССайтами</content>
+</mdclass:FunctionalOption>

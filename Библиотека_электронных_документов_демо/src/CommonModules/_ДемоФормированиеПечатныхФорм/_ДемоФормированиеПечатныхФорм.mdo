@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae18323c-037f-45b2-947e-212675a093bb">
+  <name>_ДемоФормированиеПечатныхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Формирование печатных форм</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

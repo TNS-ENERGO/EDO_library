@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:7775e6b8-3c16-4355-b905-23aa2d259b11</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonForm._ДемоНастройкаСистемы.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>CommonCommand._ДемоОбщаяНастройкаСистемы</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

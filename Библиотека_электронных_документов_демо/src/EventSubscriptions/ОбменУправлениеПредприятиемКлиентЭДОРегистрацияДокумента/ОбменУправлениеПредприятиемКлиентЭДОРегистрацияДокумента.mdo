@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="384d1787-1a28-47ea-bf20-8b11dc679ddf">
+  <name>ОбменУправлениеПредприятиемКлиентЭДОРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с 1С:Управление производственным предприятием зарегистрировать изменение документа</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.СчетФактураПолученный</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиКЭДО.ОбменУправлениеПредприятиемКлиентЭДОЗарегистрироватьИзменениеДокумента</handler>
+</mdclass:EventSubscription>

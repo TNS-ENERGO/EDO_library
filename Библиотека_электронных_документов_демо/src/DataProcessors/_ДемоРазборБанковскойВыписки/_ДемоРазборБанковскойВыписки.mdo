@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdcfdcd5-e310-4f1d-88b1-fc67c1aeb28f">
+  <producedTypes>
+    <objectType typeId="5be58ad3-217b-4969-a859-a1f70490d237" valueTypeId="9d2d53d3-a151-4d93-a5fa-74e9e910e517"/>
+    <managerType typeId="e44c5bb2-06e3-402b-924a-165ab2d2e523" valueTypeId="cce02028-5746-4154-b4e1-60b144496d02"/>
+  </producedTypes>
+  <name>_ДемоРазборБанковскойВыписки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разбор банковской выписки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="5e2df265-d06c-4afc-9e31-ec03a96e5e5a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо: Разбор банковской выписки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d90e171-e6d6-41ef-ba65-29a883b75ba6">
+  <name>_ДемоТекущиеДелаЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Текущие дела ЭДО</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

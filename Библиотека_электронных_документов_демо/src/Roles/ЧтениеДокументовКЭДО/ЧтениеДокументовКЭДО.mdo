@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa063c0b-e1bd-4c51-94f4-35cdb8e1ffc4">
+  <name>ЧтениеДокументовКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение документов Клиент ЭДО</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

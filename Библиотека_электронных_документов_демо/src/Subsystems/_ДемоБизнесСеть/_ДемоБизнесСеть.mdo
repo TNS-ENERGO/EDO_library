@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6ba5257-050d-4818-9a26-6a3013991f97">
+  <name>_ДемоБизнесСеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-сеть</value>
+  </synonym>
+  <comment></comment>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделБизнесСеть</picture>
+  </picture>
+  <content>CommonPicture._ДемоРазделБизнесСеть</content>
+  <content>CommonCommand.РегистрацияБизнесСеть</content>
+  <content>CommonCommand.УдалитьСервисныеКомандыБизнесСеть</content>
+  <content>CommonCommand.ВходящиеДокументыБизнесСеть</content>
+  <content>CommonCommand.ТорговыеПредложенияБизнесСеть</content>
+  <content>Catalog._ДемоСоглашенияСКлиентами</content>
+  <content>CommonCommand._ДемоПоискТоваровТорговыеПредложения</content>
+  <content>CommonCommand.ПубликацияТорговыхПредложений</content>
+</mdclass:Subsystem>
