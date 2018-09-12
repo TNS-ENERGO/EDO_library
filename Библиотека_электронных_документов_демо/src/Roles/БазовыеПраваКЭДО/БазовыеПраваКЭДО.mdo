@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7352a78-ee8c-469d-ac73-1ae5ea4db1f8">
+  <name>БазовыеПраваКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые права Клиент ЭДО</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

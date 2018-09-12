@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7c20b33-b859-4305-8f6f-e014cc4cb7e5">
+  <name>_ДемоОбменСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с контрагентами</value>
+  </synonym>
+  <comment></comment>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЭмблемаСервиса1СЭДО</picture>
+  </picture>
+  <content>Catalog._ДемоВидыЦен</content>
+  <content>Catalog._ДемоПартнеры</content>
+  <content>Catalog._ДемоСклады</content>
+  <content>Catalog.ХарактеристикиНоменклатуры</content>
+  <content>Document._ДемоЗаказПокупателя</content>
+  <content>Document._ДемоЗаказПоставщику</content>
+  <content>Document._ДемоОперация</content>
+  <content>Document._ДемоПередачаТоваровМеждуОрганизациями</content>
+  <content>Constant._ДемоИспользоватьПартнеровИКонтрагентов</content>
+  <content>Constant._ДемоПродажаПрограммногоОбеспечения</content>
+  <content>Catalog._ДемоЗначенияСвойствОбъектов</content>
+  <content>Catalog._ДемоНаборыДополнительныхРеквизитовИСведений</content>
+  <content>Enum._ДемоСтатусыЗаказов</content>
+  <content>ChartOfCharacteristicTypes._ДемоДополнительныеРеквизитыИСведения</content>
+  <content>InformationRegister._ДемоДополнительныеСведения</content>
+  <content>InformationRegister._ДемоЦеныНоменклатуры</content>
+  <content>AccumulationRegister._ДемоТоварыНаСкладах</content>
+  <content>FunctionalOption._ДемоИспользоватьПартнеровИКонтрагентов</content>
+  <content>FunctionalOption._ДемоПродажаПрограммногоОбеспечения</content>
+  <content>Role._ДемоБазовыеПраваБЭД</content>
+  <content>Document._ДемоУдалитьВозвратТоваровОтПокупателя</content>
+  <content>CommonForm._ДемоПроверкаИнтеграцииССервисом1СОтчетность</content>
+  <content>Enum._ДемоСпособыДоставки</content>
+  <content>CommonModule._ДемоОбменСКонтрагентами</content>
+  <content>EventSubscription._ДемоЗафиксироватьИзменениеТоваровПоСкладамПриПроведении</content>
+  <content>33361420-dea2-46d2-b07d-48d97a085689</content>
+  <content>Document.ПоступлениеТоваровУслуг</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.СчетФактураВыданный</content>
+  <content>Document.СчетФактураПолученный</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Контрагенты</content>
+  <content>CommonCommand._ДемоТекущиеДелаЭДО</content>
+  <content>Catalog.Валюты</content>
+</mdclass:Subsystem>

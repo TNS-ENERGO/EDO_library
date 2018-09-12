@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7ea89a3-fe6d-4191-a6f8-065570eca0ad">
+  <producedTypes>
+    <refType typeId="4e9156f4-fbc0-4033-a560-a46f6aa500e8" valueTypeId="54319a11-bdfe-43d7-819a-f6e2dac94ce9"/>
+    <listType typeId="f3ab70d1-1ab4-437b-94b1-bf62081bb482" valueTypeId="22079573-5826-4cfb-8b5f-6dfe35acd027"/>
+    <managerType typeId="7aae5171-f8e7-438d-9df9-fc0605e5c285" valueTypeId="b19f7fd1-1345-4813-b45c-8e3c82df4b93"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ab5833d1-d77b-4327-9432-500150d0cfa1">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="79084626-dbdf-48e5-9caa-091c794bdac6">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="747c556b-3e2d-467e-b3e7-5f5bb65230e1">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ccab197f-ce10-4bde-a284-3ef8f9cbd8a7">
+    <name>Право</name>
+    <synonym>
+      <key>ru</key>
+      <value>Право</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

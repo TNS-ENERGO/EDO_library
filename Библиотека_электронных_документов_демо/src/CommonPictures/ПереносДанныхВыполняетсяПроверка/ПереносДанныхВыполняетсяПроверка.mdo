@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd4fb72a-620f-4dd9-b9e9-4b84f239e966">
+  <name>ПереносДанныхВыполняетсяПроверка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос данных выполняется проверка</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>27</x>
+    <y>6</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

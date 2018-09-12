@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="855c763d-10da-47a1-b2da-0adf04e9c185">
+  <producedTypes>
+    <selectionType typeId="642aa3cd-20b3-4267-af5c-88da2e036c06" valueTypeId="ff831fb7-b0b6-4786-b569-df37c0dddfbd"/>
+    <listType typeId="2057a32e-d090-4ae1-b971-fa5e02f60093" valueTypeId="84f14161-fc49-4f5a-88ce-59b0e8ffde57"/>
+    <managerType typeId="4316a3a4-a78b-4477-a929-e4bea1c0c24c" valueTypeId="6f870150-ac64-493d-9d23-ff624cf51248"/>
+  </producedTypes>
+  <name>ИсходящиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исходящие документы</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.ИсходящиеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РеализацияТоваровУслуг</registeredDocuments>
+  <registeredDocuments>Document.СчетФактураВыданный</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="b343c837-19d3-42e2-9668-b9c655e65596">
+    <name>ПредставлениеНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление номера</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РеализацияТоваровУслуг.Attribute.ПредставлениеНомера</references>
+    <references>Document.СчетФактураВыданный.Attribute.ПредставлениеНомера</references>
+  </columns>
+  <columns uuid="64e12b6d-a100-40b0-b11c-0a7350942fb8">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РеализацияТоваровУслуг.Attribute.ВидДокумента</references>
+    <references>Document.СчетФактураВыданный.Attribute.ВидДокумента</references>
+  </columns>
+  <columns uuid="f1ec3135-7bd0-4837-9f1b-1176217d7a07">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.СчетФактураВыданный.Attribute.ВидОперации</references>
+    <references>Document.РеализацияТоваровУслуг.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="6993804c-84d1-455c-b6fa-b311b0ef63cd">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РеализацияТоваровУслуг.Attribute.Контрагент</references>
+    <references>Document.СчетФактураВыданный.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="99f83e2f-f21b-41a5-abe2-8538f1ce5152">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РеализацияТоваровУслуг.Attribute.Организация</references>
+    <references>Document.СчетФактураВыданный.Attribute.Организация</references>
+  </columns>
+  <columns uuid="fcad6742-c4be-475d-b4c0-e4fd3dee825e">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РеализацияТоваровУслуг.Attribute.СуммаДокумента</references>
+    <references>Document.СчетФактураВыданный.Attribute.СуммаДокумента</references>
+  </columns>
+  <forms uuid="f2fdeaf3-9aa9-4f44-b802-5a25f3b999cd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

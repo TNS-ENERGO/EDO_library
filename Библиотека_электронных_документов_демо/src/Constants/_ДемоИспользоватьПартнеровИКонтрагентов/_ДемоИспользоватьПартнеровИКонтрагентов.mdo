@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da702b86-b459-4305-87b9-97c695b21931">
+  <producedTypes>
+    <managerType typeId="380d3072-2831-49db-a4ad-7deb5a3d4b17" valueTypeId="69c27b19-75d7-4925-ab07-7772f71553fc"/>
+    <valueManagerType typeId="3d4bb7e7-ddb0-4dab-a7c0-354cb773f0d1" valueTypeId="ddd4466b-ed5a-4d83-9bea-e59eb183d259"/>
+  </producedTypes>
+  <name>_ДемоИспользоватьПартнеровИКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Использовать партнеров и контрагентов</value>
+  </synonym>
+  <comment>Позволяет регулировать отображение партнеров на формах</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <defaultForm>CommonForm._ДемоНастройкаСистемы</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>При включении данной константы, на форме элемента справочника Настроки ЭДО отображается реквизит &quot;Партнер&quot;</value>
+  </explanation>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <quickChoice>DontUse</quickChoice>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

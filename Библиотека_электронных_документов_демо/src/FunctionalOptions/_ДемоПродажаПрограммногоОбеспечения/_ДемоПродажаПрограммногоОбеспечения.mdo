@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5158e69-0ef6-40b0-a61e-522f7db8ba30">
+  <name>_ДемоПродажаПрограммногоОбеспечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Продажа программного обеспечения</value>
+  </synonym>
+  <comment>Позволяет формировать ЭД вида &quot;Акт на передачу прав&quot;</comment>
+  <location>Constant._ДемоПродажаПрограммногоОбеспечения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

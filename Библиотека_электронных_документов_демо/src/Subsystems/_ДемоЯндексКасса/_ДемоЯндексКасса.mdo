@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cda67f3-1891-4e66-b4e9-fe34914097d3">
+  <name>_ДемоЯндексКасса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс.Касса</value>
+  </synonym>
+  <comment></comment>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture._ДемоРазделИнтеграцияСЯндексКассой</picture>
+  </picture>
+  <content>CommonModule._ДемоИнтеграцияСЯндексКассой</content>
+  <content>CommonModule._ДемоИнтеграцияСЯндексКассойКлиент</content>
+  <content>Document._ДемоЗаказПокупателя</content>
+  <content>Document._ДемоОперацияПоЯндексКассе</content>
+  <content>CommonModule._ДемоИнтеграцияСЯндексКассойВызовСервера</content>
+  <content>CommonPicture._ДемоРазделИнтеграцияСЯндексКассой</content>
+  <content>Enum._ДемоТипыОперацийВозвратаЧерезЯндексКассу</content>
+  <content>Catalog.НастройкиЯндексКассы</content>
+  <content>Constant._ДемоПоказыватьПодсистемуИнтеграцияСЯндексКассой</content>
+</mdclass:Subsystem>

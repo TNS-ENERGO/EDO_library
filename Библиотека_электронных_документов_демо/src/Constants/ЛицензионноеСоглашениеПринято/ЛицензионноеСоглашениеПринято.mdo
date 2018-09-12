@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c1d5b6d-b6df-4cfa-a989-e035c1af8271">
+  <producedTypes>
+    <managerType typeId="2a7cb1b9-07fe-44bf-9d0c-7f065e542f47" valueTypeId="6f67928b-719c-4891-bcb0-353036dff093"/>
+    <valueManagerType typeId="ba1f4a1d-b1dc-46d3-a93e-2a23cd8fb56a" valueTypeId="0ff3dab2-3a3e-483c-bad6-13d30ce49f57"/>
+  </producedTypes>
+  <name>ЛицензионноеСоглашениеПринято</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензионное соглашение принято</value>
+  </synonym>
+  <comment>Пользователь подтвердил согласие с условиями лицензионного соглашения</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Пользователь подтвердил согласие с условиями лицензионного соглашения, отметив в форме лицензионного соглашения соответствующий пункт.</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c387d0cc-b4bb-4b12-907d-0003cfdebb44">
+  <name>_ДемоПоказыватьПодсистему1CБизнесСеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать команды подсистемы 1С:Бизнес-сеть</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant._ДемоПоказыватьПодсистему1CБизнесСеть</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоБизнесСеть</content>
+</mdclass:FunctionalOption>

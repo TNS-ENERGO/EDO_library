@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd77fd32-7d23-4870-9c1d-faff6f15c92f">
+  <name>ПереносДанныхОшибкаВыгрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос данных ошибка выгрузка</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>25</x>
+    <y>6</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

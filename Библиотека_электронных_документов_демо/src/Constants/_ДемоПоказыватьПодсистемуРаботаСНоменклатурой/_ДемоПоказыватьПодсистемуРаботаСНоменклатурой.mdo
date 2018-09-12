@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2f37e7c-77c4-47f4-b253-4a6bb90d1c0c">
+  <producedTypes>
+    <managerType typeId="414d27ae-a291-4725-afb1-b45e1fc680ac" valueTypeId="b976d0c4-d17e-4752-b883-68e99390c33a"/>
+    <valueManagerType typeId="a4ed6aaa-2470-4e73-bf8b-b5b98e7febe9" valueTypeId="23fc5be7-7d6d-486a-8d50-7718c20c72e7"/>
+  </producedTypes>
+  <name>_ДемоПоказыватьПодсистемуРаботаСНоменклатурой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Показывать подсистему 1С:Номенклатура</value>
+  </synonym>
+  <comment>Позволяет регулировать отображение объектов сервиса 1С:Номенклатура</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <defaultForm>CommonForm._ДемоНастройкаСистемы</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>При включенной константе, в командном интерфейсе отображаются команды для работы обмена с сайтами</value>
+  </explanation>
+  <format>
+    <key>ru</key>
+    <value> </value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value> </value>
+  </editFormat>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <quickChoice>DontUse</quickChoice>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

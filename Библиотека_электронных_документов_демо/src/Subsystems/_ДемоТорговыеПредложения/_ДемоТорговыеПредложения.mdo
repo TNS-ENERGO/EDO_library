@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d1711af-7ad3-4738-b984-ef95c1384258">
+  <name>_ДемоТорговыеПредложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговые предложения</value>
+  </synonym>
+  <comment></comment>
+  <content>Catalog._ДемоСоглашенияСКлиентами</content>
+  <content>CommonCommand.ТорговыеПредложенияБизнесСеть</content>
+  <content>CommonCommand.ПубликацияТорговыхПредложений</content>
+  <content>CommonCommand._ДемоПоискТоваровТорговыеПредложения</content>
+  <content>CommonForm._ДемоФормаОтчета</content>
+  <content>Enum._ДемоРеквизитыСопоставленияНоменклатурыБизнесСеть</content>
+  <content>CommonModule._ДемоТорговыеПредложения</content>
+</mdclass:Subsystem>

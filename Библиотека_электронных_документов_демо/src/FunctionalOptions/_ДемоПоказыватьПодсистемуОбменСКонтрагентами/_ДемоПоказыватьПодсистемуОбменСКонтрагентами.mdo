@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbf0dd5b-0edc-49a5-9e39-241f4fa1187d">
+  <name>_ДемоПоказыватьПодсистемуОбменСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать команды подсистемы обмена с контрагентами</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant._ДемоПоказыватьПодсистемуОбменСКонтрагентами</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem._ДемоОбменСКонтрагентами</content>
+  <content>Document.СчетФактураВыданный</content>
+  <content>Document.СчетФактураПолученный</content>
+  <content>Document.ПоступлениеТоваровУслуг</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.НоменклатураПоставщиков</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>DocumentJournal.ИсходящиеДокументы</content>
+  <content>DocumentJournal.ВходящиеДокументы</content>
+  <content>CommonCommand.ИсправлениеДокумента</content>
+  <content>CommonCommand.КорректировкаДокумента</content>
+</mdclass:FunctionalOption>

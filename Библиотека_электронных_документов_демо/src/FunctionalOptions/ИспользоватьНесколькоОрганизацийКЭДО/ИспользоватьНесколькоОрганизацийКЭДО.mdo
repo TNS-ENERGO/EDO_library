@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="842bc5ed-44cc-4637-91c1-99178ecdc866">
+  <name>ИспользоватьНесколькоОрганизацийКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько организаций Клиент ЭДО</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьНесколькоОрганизацийКЭДО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ДоговорыКонтрагентов.Attribute.Организация</content>
+  <content>Document.СчетФактураВыданный.Attribute.Организация</content>
+  <content>Document.ПоступлениеТоваровУслуг.Attribute.Организация</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.Организация</content>
+  <content>Document.СчетФактураПолученный.Attribute.Организация</content>
+</mdclass:FunctionalOption>

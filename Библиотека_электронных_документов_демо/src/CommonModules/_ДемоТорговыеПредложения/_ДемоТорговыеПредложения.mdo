@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1827cf98-1bcc-4829-b4d4-d86dd3b85914">
+  <name>_ДемоТорговыеПредложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо торговые предложения</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
